@@ -44,12 +44,11 @@ public class Customer implements java.io.Serializable {
 		this.address = address;
 	}
 
-	public Date getCreatedDate() {
-		return this.createdDate;
-	}
+    public Date getCreatedDate() {
+        return createdDate;
+    }
 
-	public void setCreatedDate(Date createdDate) {
-		this.createdDate = createdDate;
-	}
-
+    public void setCreatedDate(Date createdDate) {
+        this.createdDate = createdDate;
+    }
 }

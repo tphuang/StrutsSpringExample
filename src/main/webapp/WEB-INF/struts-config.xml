@@ -53,7 +53,7 @@
     <!-- Spring Struts plugin -->
     <plug-in className="org.springframework.web.struts.ContextLoaderPlugIn">
         <set-property property="contextConfigLocation"
-                      value="../..resources/SpringBeans.xml"/>
-                      <!--value="/WEB-INF/classes/SpringBeans.xml"/>-->
+                      value="/WEB-INF/classes/SpringBeans.xml"/>
+        <!--value="../..resources/SpringBeans.xml"/>-->
     </plug-in>
 </struts-config>
