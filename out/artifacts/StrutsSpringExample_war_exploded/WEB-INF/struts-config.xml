@@ -29,8 +29,7 @@
                 type="com.mkyong.customer.action.AddCustomerAction"
                 name="customerForm"
                 validate="true"
-                input="/pages/customer/add_customer.jsp"
-                >
+                input="/pages/customer/add_customer.jsp">
 
             <forward name="success" redirect="true" path="/ListCustomer.do"/>
         </action>
@@ -53,7 +52,7 @@
     <!-- Spring Struts plugin -->
     <plug-in className="org.springframework.web.struts.ContextLoaderPlugIn">
         <set-property property="contextConfigLocation"
-                      value="../..resources/SpringBeans.xml"/>
-                      <!--value="/WEB-INF/classes/SpringBeans.xml"/>-->
+                      value="/WEB-INF/classes/SpringBeans.xml"/>
+        <!--value="../..resources/SpringBeans.xml"/>-->
     </plug-in>
 </struts-config>

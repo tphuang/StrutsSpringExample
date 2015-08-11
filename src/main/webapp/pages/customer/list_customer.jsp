@@ -11,7 +11,7 @@
 <h2>List All Customers</h2>
 
 <table border="1">
-<tr><td>Customer Name</td><td>Address</td></tr>
+<tr><td>Customer Name</td> <td>Address</td></tr>
 
 <logic:iterate id="customer" name="dynaCustomerListForm" property="customerList">
 <tr>	
